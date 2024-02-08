@@ -1,0 +1,173 @@
+Microsoft Windows [Version 10.0.19045.2604]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Abdullahi\Documents\MY SQI\LEVEL 3\NODE\FIRST NODE CLASS>npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (first-node-class)
+version: (1.0.0)
+description: my first node project
+entry point: (index.js)
+test command:
+git repository:
+keywords:
+author: abdullahi
+license: (ISC)
+About to write to C:\Users\Abdullahi\Documents\MY SQI\LEVEL 3\NODE\FIRST NODE CLASS\package.json:
+
+{
+  "name": "first-node-class",
+  "version": "1.0.0",
+  "description": "my first node project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "abdullahi",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes)
+
+C:\Users\Abdullahi\Documents\MY SQI\LEVEL 3\NODE\FIRST NODE CLASS>npm install express
+
+added 57 packages, and audited 58 packages in 16s
+
+7 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\Abdullahi\Documents\MY SQI\LEVEL 3\NODE\FIRST NODE CLASS>node index
+this server is no fire
+^C
+C:\Users\Abdullahi\Documents\MY SQI\LEVEL 3\NODE\FIRST NODE CLASS>node index
+this server is no fire
+^C
+C:\Users\Abdullahi\Documents\MY SQI\LEVEL 3\NODE\FIRST NODE CLASS>node index
+this server is no fire
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.setHeader (node:_http_outgoing:663:11)
+    at ServerResponse.header (C:\Users\Abdullahi\Documents\MY SQI\LEVEL 3\NODE\FIRST NODE CLASS\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.contentType (C:\Users\Abdullahi\Documents\MY SQI\LEVEL 3\NODE\FIRST NODE CLASS\node_modules\express\lib\response.js:624:15)
+    at ServerResponse.send (C:\Users\Abdullahi\Documents\MY SQI\LEVEL 3\NODE\FIRST NODE CLASS\node_modules\express\lib\response.js:149:14)
+    at C:\Users\Abdullahi\Documents\MY SQI\LEVEL 3\NODE\FIRST NODE CLASS\index.js:6:10
+    at Layer.handle [as handle_request] (C:\Users\Abdullahi\Documents\MY SQI\LEVEL 3\NODE\FIRST NODE CLASS\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Abdullahi\Documents\MY SQI\LEVEL 3\NODE\FIRST NODE CLASS\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Abdullahi\Documents\MY SQI\LEVEL 3\NODE\FIRST NODE CLASS\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Abdullahi\Documents\MY SQI\LEVEL 3\NODE\FIRST NODE CLASS\node_modules\express\lib\router\layer.js:95:5)
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.setHeader (node:_http_outgoing:663:11)
+    at ServerResponse.header (C:\Users\Abdullahi\Documents\MY SQI\LEVEL 3\NODE\FIRST NODE CLASS\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.contentType (C:\Users\Abdullahi\Documents\MY SQI\LEVEL 3\NODE\FIRST NODE CLASS\node_modules\express\lib\response.js:624:15)
+    at ServerResponse.send (C:\Users\Abdullahi\Documents\MY SQI\LEVEL 3\NODE\FIRST NODE CLASS\node_modules\express\lib\response.js:149:14)
+    at C:\Users\Abdullahi\Documents\MY SQI\LEVEL 3\NODE\FIRST NODE CLASS\index.js:6:10
+    at Layer.handle [as handle_request] (C:\Users\Abdullahi\Documents\MY SQI\LEVEL 3\NODE\FIRST NODE CLASS\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Abdullahi\Documents\MY SQI\LEVEL 3\NODE\FIRST NODE CLASS\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Abdullahi\Documents\MY SQI\LEVEL 3\NODE\FIRST NODE CLASS\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Abdullahi\Documents\MY SQI\LEVEL 3\NODE\FIRST NODE CLASS\node_modules\express\lib\router\layer.js:95:5)
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.setHeader (node:_http_outgoing:663:11)
+    at ServerResponse.header (C:\Users\Abdullahi\Documents\MY SQI\LEVEL 3\NODE\FIRST NODE CLASS\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.contentType (C:\Users\Abdullahi\Documents\MY SQI\LEVEL 3\NODE\FIRST NODE CLASS\node_modules\express\lib\response.js:624:15)
+    at ServerResponse.send (C:\Users\Abdullahi\Documents\MY SQI\LEVEL 3\NODE\FIRST NODE CLASS\node_modules\express\lib\response.js:149:14)
+    at C:\Users\Abdullahi\Documents\MY SQI\LEVEL 3\NODE\FIRST NODE CLASS\index.js:6:10
+    at Layer.handle [as handle_request] (C:\Users\Abdullahi\Documents\MY SQI\LEVEL 3\NODE\FIRST NODE CLASS\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Abdullahi\Documents\MY SQI\LEVEL 3\NODE\FIRST NODE CLASS\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Abdullahi\Documents\MY SQI\LEVEL 3\NODE\FIRST NODE CLASS\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Abdullahi\Documents\MY SQI\LEVEL 3\NODE\FIRST NODE CLASS\node_modules\express\lib\router\layer.js:95:5)
+^C
+C:\Users\Abdullahi\Documents\MY SQI\LEVEL 3\NODE\FIRST NODE CLASS>node index
+this server is no fire
+^C
+C:\Users\Abdullahi\Documents\MY SQI\LEVEL 3\NODE\FIRST NODE CLASS>node index
+this server is no fire
+^C
+C:\Users\Abdullahi\Documents\MY SQI\LEVEL 3\NODE\FIRST NODE CLASS>npm install nodemon
+npm ERR! code ECONNRESET
+npm ERR! syscall read
+npm ERR! errno ECONNRESET
+npm ERR! network Invalid response body while trying to fetch https://registry.npmjs.org/simple-update-notifier: read ECONNRESET
+npm ERR! network This is a problem related to network connectivity.
+npm ERR! network In most cases you are behind a proxy or have bad network settings.
+npm ERR! network
+npm ERR! network If you are behind a proxy, please make sure that the
+npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\Abdullahi\AppData\Local\npm-cache\_logs\2023-04-04T12_24_00_930Z-debug-0.log
+
+C:\Users\Abdullahi\Documents\MY SQI\LEVEL 3\NODE\FIRST NODE CLASS>npm install nodemon
+
+added 32 packages, and audited 90 packages in 5s
+
+10 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\Abdullahi\Documents\MY SQI\LEVEL 3\NODE\FIRST NODE CLASS>npm start
+
+> first-node-class@1.0.0 start
+> nodemon index
+
+[nodemon] 2.0.22
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,json
+[nodemon] starting `node index index.js`
+this server is no fire
+[nodemon] restarting due to changes...
+[nodemon] starting `node index index.js`
+this server is no fire
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index index.js`
+this server is no fire
+ReferenceError: resonse is not defined
+    at C:\Users\Abdullahi\Documents\MY SQI\LEVEL 3\NODE\FIRST NODE CLASS\index.js:6:1
+    at Layer.handle [as handle_request] (C:\Users\Abdullahi\Documents\MY SQI\LEVEL 3\NODE\FIRST NODE CLASS\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Abdullahi\Documents\MY SQI\LEVEL 3\NODE\FIRST NODE CLASS\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Abdullahi\Documents\MY SQI\LEVEL 3\NODE\FIRST NODE CLASS\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Abdullahi\Documents\MY SQI\LEVEL 3\NODE\FIRST NODE CLASS\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Abdullahi\Documents\MY SQI\LEVEL 3\NODE\FIRST NODE CLASS\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Abdullahi\Documents\MY SQI\LEVEL 3\NODE\FIRST NODE CLASS\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Abdullahi\Documents\MY SQI\LEVEL 3\NODE\FIRST NODE CLASS\node_modules\express\lib\router\index.js:280:10)
+    at expressInit (C:\Users\Abdullahi\Documents\MY SQI\LEVEL 3\NODE\FIRST NODE CLASS\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\Abdullahi\Documents\MY SQI\LEVEL 3\NODE\FIRST NODE CLASS\node_modules\express\lib\router\layer.js:95:5)
+[nodemon] restarting due to changes...
+[nodemon] starting `node index index.js`
+this server is no fire
+[nodemon] restarting due to changes...
+[nodemon] starting `node index index.js`
+this server is no fire
+[nodemon] restarting due to changes...
+[nodemon] starting `node index index.js`
+this server is no fire
+[nodemon] restarting due to changes...
+[nodemon] starting `node index index.js`
+this server is no fire
+[nodemon] restarting due to changes...
+[nodemon] starting `node index index.js`
+this server is no fire
+[nodemon] restarting due to changes...
+[nodemon] starting `node index index.js`
+this server is no fire
+[nodemon] restarting due to changes...
+[nodemon] starting `node index index.js`
+this server is no fire
+[nodemon] restarting due to changes...
+[nodemon] starting `node index index.js`
+this server is no fire
